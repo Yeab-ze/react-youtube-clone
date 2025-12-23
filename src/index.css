@@ -1,4 +1,11 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -7,4 +14,9 @@ a {
 
 img {
     cursor: pointer;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
 }
